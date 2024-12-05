@@ -69,7 +69,7 @@ function Support() {
               <p className={styles.Seconddivtext3}>
                 Elevate your hiring process with TestParhai. Assess candidates' skills accurately and efficiently. Identify top talent to build exceptional tech teams that drive your company's success.
               </p>
-              <div style={{ paddingTop: "0.5rem", paddingBottom: "2rem" }}>
+              <div className={`${styles.supportSectionImageWrapper}`}>
                 <Image alt='' src={Line} />
               </div>
               <Button text='Request Demo' variant='secondary' />

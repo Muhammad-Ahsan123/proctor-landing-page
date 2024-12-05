@@ -23,7 +23,7 @@ const Pricingcards: React.FC<PricingCardsProps> = ({ title, description, amount,
           {description}
         </p>
         <p className={styles.amount}>{amount}<span className={styles.account}>/Account</span></p>
-        <hr style={{ opacity: "0.1rem" }} />
+        <hr className={`${styles.pricingHr}`} />
         <ul className={styles.ullist}>
           {features.map((feature, index) => (
             <li key={index}>

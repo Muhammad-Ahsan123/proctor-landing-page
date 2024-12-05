@@ -67,7 +67,7 @@ const Cardssection: React.FC = () => {
           We offer various packages for you
         </p>
       </div>
-      <div style={{ display: "flex" }}>
+      <div className={`${styles.flex}`}>
         {packages.map((pkg, index) => (
           <Pricingcards
             key={index}
