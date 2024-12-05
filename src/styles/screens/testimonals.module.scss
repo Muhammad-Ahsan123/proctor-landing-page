@@ -1,0 +1,26 @@
+.maindiscription{
+    color: #000;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.mainheading{
+    color: #000;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.maindiv{
+    display: flex;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center;     /* Vertically centers the content */
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 12rem;
+}
+.secondmaindiv{
+    display: flex;
+    gap: 2rem   
+}

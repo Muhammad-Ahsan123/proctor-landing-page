@@ -1,0 +1,46 @@
+@import "./../mixins.module.scss";
+
+
+.maincarddiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+
+  @include for-size("phone-only") {
+    border: 1px red solid
+  };
+
+
+  .card1 {
+
+    flex: 1 1 calc(25% - 20px);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 52, 70, 0.24);
+    background: #FFF;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: calc(25% - 20px);
+  }
+}
+
+.cardtitle {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.carddiscription {
+  color: #000;
+  font-size: 20px;
+  line-height: 160%;
+  /* 32px */
+  opacity: 0.5;
+}
+
+.imagecard {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}

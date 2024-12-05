@@ -1,0 +1,51 @@
+.mainheaderdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;   
+    padding: 16px 24px 16px 24px;
+    margin-top: 48px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 52, 70, 0.10);
+    background: #FCFDFD;
+}
+
+.ulheaderlist {
+    display: flex; 
+    justify-content: flex-end;  
+    flex-grow: 1;  
+}
+
+.headerlist {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    gap: 24px;
+    align-items: center;
+}
+
+.sublist {
+    opacity: 50%;
+}
+
+.button {
+    border: 1px solid #003446;
+    background-color: #003446;
+    color: #FFFF;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    line-height: 16px;
+    border-radius: 8px;
+    padding: 16px 24px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-shrink: 0;
+}
